@@ -112,9 +112,9 @@ function Canvas({ adInfo }) {
     const boxHeight = textHeight + 48;
 
    
-    drawRect(100, 320, boxWidth, boxHeight, 20, backgroundColor, ctx);
+    drawRect(100, 200, boxWidth, boxHeight, 20, backgroundColor, ctx);
 
-    let startY = 320 + (boxHeight / 2 + 8); 
+    let startY = 200 + (boxHeight / 2 + 8); 
     const startX = 100+24; 
 
     ctx.fillStyle = '#000000'; 
